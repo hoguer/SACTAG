@@ -24,6 +24,7 @@ __email__ = "niniane at gmail dot com, hoguer711 at gmail dot com"
 import math
 import re
 from operator import itemgetter
+from helper_functions import rpartition
 
 class TfIdf:
 

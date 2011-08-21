@@ -1,0 +1,6 @@
+spread	3
+variant	True
+stopwords	True
+stopword_file	../stopwords/All_0.4.txt
+num_grams	3
+$num_docs$	1

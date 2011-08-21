@@ -1,30 +1,25 @@
 import os, re
 from helper_functions import file_dict
 
-def create_stopword_file(subcorpus, stopword_percentage_threshold, path_to_files):
-    """Creates a stopword file. Returns stopword filename."""
-    
-    if not os.path.exists("stopwords/"):
-        os.mkdir("stopwords/")
+def create_stopword_file(subcorpus, stopword_percentage_threshold, path_to_files, stopword_filename="stopwords.txt"):
+    """Creates a stopword file. Returns stopword list"""
 
-    stopword_file = "stopwords/" + subcorpus + "_" + str(stopword_percentage_threshold) + ".txt"
+    #ref_file.txt contains the names and corresponding TLG files for authors and subcorpora
+    filedict = file_dict('../test_ref.txt')
 
-    if not os.path.exists(stopword_file):
-
-        #ref_file.txt contains the names and corresponding TLG files for authors and subcorpora
-        filedict = file_dict('../ref_file.txt')
-
-        # stores {word --> occurence} 
-        stopwords = {}
+    # stores {word --> occurence} 
+    stopwords = {}
         
-        for filename in filedict[subcorpus]:
-            stopwords = add_file_to_stopwords(path_to_files + filename, stopwords)
+    for filename in filedict[subcorpus]:
+        stopwords = add_file_to_stopwords(path_to_files + filename, stopwords)
 
-        num_docs = len(filedict[subcorpus])
+    num_docs = len(filedict[subcorpus])
 
-        save_file(stopword_file, stopwords, num_docs, stopword_percentage_threshold)
+    save_file(stopword_filename, stopwords, num_docs, stopword_percentage_threshold)
 
-    return stopword_file
+    print "created stopword file: ", stopword_filename 
+
+    return stopwords
 
 
 def add_file_to_stopwords(filename, stopwords):
@@ -43,9 +38,9 @@ def add_file_to_stopwords(filename, stopwords):
     return stopwords
 
     
-def save_file(stopword_file, stopwords, num_docs, percentage_threshold):
+def save_file(stopword_filename, stopwords, num_docs, percentage_threshold):
 
-    stopword_file = open(stopword_file, "w")
+    stopword_file = open(stopword_filename, "w")
 
     for word, num in stopwords.iteritems():
         if not (num < (percentage_threshold * num_docs)):
@@ -54,6 +49,6 @@ def save_file(stopword_file, stopwords, num_docs, percentage_threshold):
     stopword_file.close()
 
 
-#example for creating a stopword file with a subcorpus of all. Words must appear in 10% of documents
+#example for creating a stopword file with a subcorpus of all. In this example, words must appear in 10% of documents
 #to be considered a stopword. 
 #create_stopword_file('All',0.1, "files/")

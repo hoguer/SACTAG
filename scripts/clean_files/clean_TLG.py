@@ -9,8 +9,8 @@ def strip_unwanted_chars(file):
 
     #replaces brackets {} and [] and any enclosed text with a space.
     #Also, any following integers, 123456789, have been removed, as TLG sometimes uses [#.....]# or {#.....}# to indicate a certain style of bracket.
-    s = re.sub(r"\{[^}]*\}[0-9]*", " ", s)
-    s = re.sub(r"\[[^}]*\][0-9]*", " ", s)
+    s = re.sub(r"\[\{.*?\}\][0-9]*", " ", s)
+    s = re.sub(r"\[\[.*?\]\][0-9]*", " ", s)
 
     #replaces the characters [@ %] and any immediately following integers with a space
     s = re.sub(r"[@|%][0-9]*", " ", s)
@@ -33,20 +33,21 @@ if (len(sys.argv) == 3):
     outdir = sys.argv[2]
 
     if not os.path.exists(indir):
-        print "source folder does not exist"
-    elif not os.path.exists(outdir):
-        print "destination folder does not exist"
-    else:
-        for infile in glob.glob(os.path.join(indir, '*.TXT') ):
+        sys.exit("Source folder does not exist.")
+    if not os.path.exists(outdir):
+        print "Destination folder does not exist. Creating it."
+        os.makedirs(outdir)
 
-            output = strip_unwanted_chars(infile)
+    for infile in glob.glob(os.path.join(indir, '*.txt' or '*.TXT') ):
 
-            #print clean text to file
-            outfile = re.sub(indir, outdir, infile)
-            print outfile
-            out = open(outfile, "w")
-            out.write(output)
-            out.close()
+        output = strip_unwanted_chars(infile)
+
+        #print clean text to file
+        outfile = re.sub(indir, outdir, infile)
+        print outfile
+        out = open(outfile, "w")
+        out.write(output)
+        out.close()
         
 else:
     print "Incorrect number of arguments. Please include a source folder and a destination folder."

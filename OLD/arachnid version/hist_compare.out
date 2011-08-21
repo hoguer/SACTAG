@@ -1,0 +1,154 @@
+current test: num_grams:  2 , spread:  2 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Hist. , auth1:  Thucydides_Hist. , auth2:  Herodotus_Hist. , variant definition:  True
+here we go with compare
+starting compare
+doc1 file already exists. Reading data from file
+doc2 file already exists. Reading data from file
+current test: num_grams:  2 , spread:  2 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Hist. , auth1:  Thucydides_Hist. , auth2:  Herodotus_Hist. , variant definition:  False
+starting compare
+doc1 file does not exist yet. Creating tfidf score file for doc1.
+idf corpus exists.
+getting ngrams from file. Spread:  2 , numgrams:  2 variant word order:  False
+print tfidf scores to .txt and .csv
+printing doc1 to  ../tfidf_scores/2/Thucydides_Hist._Hist._v_False_sw_True_s_2.txt
+printing by freq to:  ../tfidf_csv_format/2/Thucydides_Hist._Hist._v_False_sw_True_s_2.csv
+doc2 file does not exist yet. Creating tfidf score file for doc2.
+idf corpus exists.
+getting ngrams from file. Spread:  2 , numgrams:  2 variant word order:  False
+print tfidf scores to .txt and .csv
+printing doc2 to  ../tfidf_scores/2/Herodotus_Hist._Hist._v_False_sw_True_s_2.txt
+printing by freq to:  ../tfidf_csv_format/2/Herodotus_Hist._Hist._v_False_sw_True_s_2.csv
+current test: num_grams:  2 , spread:  3 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Hist. , auth1:  Thucydides_Hist. , auth2:  Herodotus_Hist. , variant definition:  True
+starting compare
+doc1 file does not exist yet. Creating tfidf score file for doc1.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  2 variant word order:  True
+print tfidf scores to .txt and .csv
+printing doc1 to  ../tfidf_scores/2/Thucydides_Hist._Hist._v_True_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/2/Thucydides_Hist._Hist._v_True_sw_True_s_3.csv
+doc2 file does not exist yet. Creating tfidf score file for doc2.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  2 variant word order:  True
+print tfidf scores to .txt and .csv
+printing doc2 to  ../tfidf_scores/2/Herodotus_Hist._Hist._v_True_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/2/Herodotus_Hist._Hist._v_True_sw_True_s_3.csv
+current test: num_grams:  2 , spread:  3 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Hist. , auth1:  Thucydides_Hist. , auth2:  Herodotus_Hist. , variant definition:  False
+starting compare
+doc1 file does not exist yet. Creating tfidf score file for doc1.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  2 variant word order:  False
+print tfidf scores to .txt and .csv
+printing doc1 to  ../tfidf_scores/2/Thucydides_Hist._Hist._v_False_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/2/Thucydides_Hist._Hist._v_False_sw_True_s_3.csv
+doc2 file does not exist yet. Creating tfidf score file for doc2.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  2 variant word order:  False
+print tfidf scores to .txt and .csv
+printing doc2 to  ../tfidf_scores/2/Herodotus_Hist._Hist._v_False_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/2/Herodotus_Hist._Hist._v_False_sw_True_s_3.csv
+current test: num_grams:  3 , spread:  3 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Hist. , auth1:  Thucydides_Hist. , auth2:  Herodotus_Hist. , variant definition:  True
+starting compare
+doc1 file does not exist yet. Creating tfidf score file for doc1.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  3 variant word order:  True
+print tfidf scores to .txt and .csv
+printing doc1 to  ../tfidf_scores/3/Thucydides_Hist._Hist._v_True_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/3/Thucydides_Hist._Hist._v_True_sw_True_s_3.csv
+doc2 file does not exist yet. Creating tfidf score file for doc2.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  3 variant word order:  True
+print tfidf scores to .txt and .csv
+printing doc2 to  ../tfidf_scores/3/Herodotus_Hist._Hist._v_True_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/3/Herodotus_Hist._Hist._v_True_sw_True_s_3.csv
+current test: num_grams:  3 , spread:  3 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Hist. , auth1:  Thucydides_Hist. , auth2:  Herodotus_Hist. , variant definition:  False
+starting compare
+doc1 file does not exist yet. Creating tfidf score file for doc1.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  3 variant word order:  False
+print tfidf scores to .txt and .csv
+printing doc1 to  ../tfidf_scores/3/Thucydides_Hist._Hist._v_False_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/3/Thucydides_Hist._Hist._v_False_sw_True_s_3.csv
+doc2 file does not exist yet. Creating tfidf score file for doc2.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  3 variant word order:  False
+print tfidf scores to .txt and .csv
+printing doc2 to  ../tfidf_scores/3/Herodotus_Hist._Hist._v_False_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/3/Herodotus_Hist._Hist._v_False_sw_True_s_3.csv
+current test: num_grams:  2 , spread:  2 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Attic_Prose , auth1:  Aeschines_Orat. , auth2:  Demosthenes_Orat. , variant definition:  True
+starting compare
+doc1 file does not exist yet. Creating tfidf score file for doc1.
+idf corpus exists.
+getting ngrams from file. Spread:  2 , numgrams:  2 variant word order:  True
+print tfidf scores to .txt and .csv
+printing doc1 to  ../tfidf_scores/2/Aeschines_Orat._Attic_Prose_v_True_sw_True_s_2.txt
+printing by freq to:  ../tfidf_csv_format/2/Aeschines_Orat._Attic_Prose_v_True_sw_True_s_2.csv
+doc2 file does not exist yet. Creating tfidf score file for doc2.
+idf corpus exists.
+getting ngrams from file. Spread:  2 , numgrams:  2 variant word order:  True
+print tfidf scores to .txt and .csv
+printing doc2 to  ../tfidf_scores/2/Demosthenes_Orat._Attic_Prose_v_True_sw_True_s_2.txt
+printing by freq to:  ../tfidf_csv_format/2/Demosthenes_Orat._Attic_Prose_v_True_sw_True_s_2.csv
+current test: num_grams:  2 , spread:  2 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Attic_Prose , auth1:  Aeschines_Orat. , auth2:  Demosthenes_Orat. , variant definition:  False
+starting compare
+doc1 file does not exist yet. Creating tfidf score file for doc1.
+idf corpus exists.
+getting ngrams from file. Spread:  2 , numgrams:  2 variant word order:  False
+print tfidf scores to .txt and .csv
+printing doc1 to  ../tfidf_scores/2/Aeschines_Orat._Attic_Prose_v_False_sw_True_s_2.txt
+printing by freq to:  ../tfidf_csv_format/2/Aeschines_Orat._Attic_Prose_v_False_sw_True_s_2.csv
+doc2 file does not exist yet. Creating tfidf score file for doc2.
+idf corpus exists.
+getting ngrams from file. Spread:  2 , numgrams:  2 variant word order:  False
+print tfidf scores to .txt and .csv
+printing doc2 to  ../tfidf_scores/2/Demosthenes_Orat._Attic_Prose_v_False_sw_True_s_2.txt
+printing by freq to:  ../tfidf_csv_format/2/Demosthenes_Orat._Attic_Prose_v_False_sw_True_s_2.csv
+current test: num_grams:  2 , spread:  3 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Attic_Prose , auth1:  Aeschines_Orat. , auth2:  Demosthenes_Orat. , variant definition:  True
+starting compare
+doc1 file already exists. Reading data from file
+doc2 file does not exist yet. Creating tfidf score file for doc2.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  2 variant word order:  True
+print tfidf scores to .txt and .csv
+printing doc2 to  ../tfidf_scores/2/Demosthenes_Orat._Attic_Prose_v_True_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/2/Demosthenes_Orat._Attic_Prose_v_True_sw_True_s_3.csv
+current test: num_grams:  2 , spread:  3 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Attic_Prose , auth1:  Aeschines_Orat. , auth2:  Demosthenes_Orat. , variant definition:  False
+starting compare
+doc1 file does not exist yet. Creating tfidf score file for doc1.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  2 variant word order:  False
+print tfidf scores to .txt and .csv
+printing doc1 to  ../tfidf_scores/2/Aeschines_Orat._Attic_Prose_v_False_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/2/Aeschines_Orat._Attic_Prose_v_False_sw_True_s_3.csv
+doc2 file does not exist yet. Creating tfidf score file for doc2.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  2 variant word order:  False
+print tfidf scores to .txt and .csv
+printing doc2 to  ../tfidf_scores/2/Demosthenes_Orat._Attic_Prose_v_False_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/2/Demosthenes_Orat._Attic_Prose_v_False_sw_True_s_3.csv
+current test: num_grams:  3 , spread:  3 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Attic_Prose , auth1:  Aeschines_Orat. , auth2:  Demosthenes_Orat. , variant definition:  True
+starting compare
+doc1 file does not exist yet. Creating tfidf score file for doc1.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  3 variant word order:  True
+print tfidf scores to .txt and .csv
+printing doc1 to  ../tfidf_scores/3/Aeschines_Orat._Attic_Prose_v_True_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/3/Aeschines_Orat._Attic_Prose_v_True_sw_True_s_3.csv
+doc2 file does not exist yet. Creating tfidf score file for doc2.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  3 variant word order:  True
+print tfidf scores to .txt and .csv
+printing doc2 to  ../tfidf_scores/3/Demosthenes_Orat._Attic_Prose_v_True_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/3/Demosthenes_Orat._Attic_Prose_v_True_sw_True_s_3.csv
+current test: num_grams:  3 , spread:  3 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Attic_Prose , auth1:  Aeschines_Orat. , auth2:  Demosthenes_Orat. , variant definition:  False
+starting compare
+doc1 file does not exist yet. Creating tfidf score file for doc1.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  3 variant word order:  False
+print tfidf scores to .txt and .csv
+printing doc1 to  ../tfidf_scores/3/Aeschines_Orat._Attic_Prose_v_False_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/3/Aeschines_Orat._Attic_Prose_v_False_sw_True_s_3.csv
+doc2 file does not exist yet. Creating tfidf score file for doc2.
+idf corpus exists.
+getting ngrams from file. Spread:  3 , numgrams:  3 variant word order:  False
+print tfidf scores to .txt and .csv
+printing doc2 to  ../tfidf_scores/3/Demosthenes_Orat._Attic_Prose_v_False_sw_True_s_3.txt
+printing by freq to:  ../tfidf_csv_format/3/Demosthenes_Orat._Attic_Prose_v_False_sw_True_s_3.csv

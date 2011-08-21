@@ -3,7 +3,7 @@ If you have access to the TLG files, the first step is to clean them up to be us
 Run clean_TLG.py to clean the files. 
 From the command line, pass the source folder and the destination folder as arguments.
 For example, if the files are in a directory one level above this README called myFiles and I want to put them in a folder titled myCleanFiles at that same level, I would type:
-$ clean_TLG.py ../myFiles ../myCleanFiles
+$ python clean_TLG.py ../myFiles ../myCleanFiles
 
 
 

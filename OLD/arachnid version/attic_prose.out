@@ -1,0 +1,57 @@
+current test: num_grams:  2 , spread:  3 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Attic_Prose , auth1:  Aeschines_Orat. , auth2:  Demosthenes_Orat. , variant definition:  False
+compiling idf dictionary from individual author files
+now on:  TLG0003.TXT
+now on:  TLG0028.TXT
+now on:  TLG1147.TXT
+now on:  TLG0027.TXT
+now on:  TLG0540.TXT
+now on:  TLG0010.TXT
+now on:  TLG0017.TXT
+now on:  TLG0026.TXT
+now on:  TLG0034.TXT
+now on:  TLG0014.TXT
+now on:  TLG0030.TXT
+now on:  TLG0029.TXT
+now on:  TLG0059.TXT
+now on:  TLG0032.TXT
+11.72
+finished compiling! Now let's print to file :-)
+current test: num_grams:  3 , spread:  3 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Attic_Prose , auth1:  Aeschines_Orat. , auth2:  Demosthenes_Orat. , variant definition:  True
+compiling idf dictionary from individual author files
+now on:  TLG0003.TXT
+another 15 mins gone by
+now on:  TLG0028.TXT
+another 15 mins gone by
+now on:  TLG1147.TXT
+now on:  TLG0027.TXT
+now on:  TLG0540.TXT
+now on:  TLG0010.TXT
+now on:  TLG0017.TXT
+now on:  TLG0026.TXT
+now on:  TLG0034.TXT
+now on:  TLG0014.TXT
+now on:  TLG0030.TXT
+now on:  TLG0029.TXT
+now on:  TLG0059.TXT
+now on:  TLG0032.TXT
+38.16
+finished compiling! Now let's print to file :-)
+current test: num_grams:  3 , spread:  3 , stopwords:  True , stopword file:  ../stopwords/All_0.4.txt , subcorpora:  Attic_Prose , auth1:  Aeschines_Orat. , auth2:  Demosthenes_Orat. , variant definition:  False
+compiling idf dictionary from individual author files
+now on:  TLG0003.TXT
+another 15 mins gone by
+now on:  TLG0028.TXT
+now on:  TLG1147.TXT
+now on:  TLG0027.TXT
+now on:  TLG0540.TXT
+now on:  TLG0010.TXT
+now on:  TLG0017.TXT
+now on:  TLG0026.TXT
+now on:  TLG0034.TXT
+now on:  TLG0014.TXT
+now on:  TLG0030.TXT
+now on:  TLG0029.TXT
+now on:  TLG0059.TXT
+now on:  TLG0032.TXT
+72.93
+finished compiling! Now let's print to file :-)
